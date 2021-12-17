@@ -10,8 +10,8 @@ onready var timer = get_node("Timer")
 
 
 func _ready():
-	
 	new_game()
+	
 func new_game():
 	$Camera2D.position = $startPosition.position
 	player = Jumper.instance() 

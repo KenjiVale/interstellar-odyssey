@@ -7,6 +7,7 @@ var radius = 100
 var rotation_speed = PI
 var muter = 1
 
+
 func muterNambah(a):
 	muter +=a
 	

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/merkurius.png-3b67aedc12f2a5284b732bf5e50f9071.stex"
+path="res://.import/planet8.png-f565bd1d8fe84135c8caf3482a260999.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/merkurius.png"
-dest_files=[ "res://.import/merkurius.png-3b67aedc12f2a5284b732bf5e50f9071.stex" ]
+source_file="res://Assets/planet8.png"
+dest_files=[ "res://.import/planet8.png-f565bd1d8fe84135c8caf3482a260999.stex" ]
 
 [params]
 

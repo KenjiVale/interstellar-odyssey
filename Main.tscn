@@ -82,7 +82,7 @@ script = ExtResource( 1 )
 position = Vector2( 252, 650 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 316, 490 )
+position = Vector2( 316, 489 )
 offset = Vector2( 0, -200 )
 current = true
 drag_margin_h_enabled = true

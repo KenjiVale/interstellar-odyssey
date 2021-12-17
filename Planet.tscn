@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Assets/planet.png" type="Texture" id=1]
+[ext_resource path="res://Assets/planet6.png" type="Texture" id=1]
 [ext_resource path="res://Planet.gd" type="Script" id=2]
+[ext_resource path="res://Sprite.gd" type="Script" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 104.389
+radius = 5505.34
 
 [sub_resource type="Animation" id=2]
 resource_name = "Implode"
@@ -79,14 +80,16 @@ script = ExtResource( 2 )
 position = Vector2( -1.00003, -2.99994 )
 scale = Vector2( 6.59299, 6.83348 )
 texture = ExtResource( 1 )
+script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource( 1 )
 
 [node name="Pivot" type="Node2D" parent="."]
 
 [node name="Orbit" type="Position2D" parent="Pivot"]
-position = Vector2( 97, -1 )
+position = Vector2( 6561, -33 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Implode = SubResource( 2 )
